@@ -1,11 +1,11 @@
 ## Le réseau 172.16.1.0/24 en symétrique :
 
-On le découpe en 4 sous-réseaux.
-Le nombre supérieur à 50 est ici 64 dans le tableau de puissance.
-le nombre d'adresses IP disponible au total, soit 64.
-Donc 2 puissance 6, soit 64, moins les 2 adresses (réseau et diffusion), donne un total de 62.
-On a donc 62 adresses IP disponibles sur chaque sous-réseaux.
-Le CIDR : 62 - 6 donc /56.
+- On le découpe en 4 sous-réseaux.
+- Le nombre supérieur à 50 est ici 64 dans le tableau de puissance.
+- le nombre d'adresses IP disponible au total, soit 64.
+- Donc 2 puissance 6, soit 64, moins les 2 adresses (réseau et diffusion), donne un total de 62.
+- On a donc 62 adresses IP disponibles sur chaque sous-réseaux.
+- Le CIDR : 62 - 6 donc /56.
 
 #### on a donc les 4 sous-réseaux suivants :
 
@@ -38,10 +38,10 @@ Le CIDR : 62 - 6 donc /56.
 
 #### On cherche en premier le nombre d'hôte pour chaque département :
 
-Le Pôle informatique (50 équipements) = 2^6-2 = 64-2 = 62
-Le Pôle développement (12 équipements) = 2^4-2 = 16-2 = 14
-Le Pôle Administratif (20 équipements) = 2^5-2 = 32-2 = 30
-Le Pôle Technicien (15 équipements) = 2^5-2 = 32-2 = 30 
+- Le Pôle informatique (50 équipements) = 2^6-2 = 64-2 = 62
+- Le Pôle développement (12 équipements) = 2^4-2 = 16-2 = 14
+- Le Pôle Administratif (20 équipements) = 2^5-2 = 32-2 = 30
+- Le Pôle Technicien (15 équipements) = 2^5-2 = 32-2 = 30 
 
 #### Les sous-réseaux seront dans cette ordre :
 
